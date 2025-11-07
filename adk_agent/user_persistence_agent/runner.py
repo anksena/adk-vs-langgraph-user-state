@@ -11,7 +11,7 @@ from google.genai.types import Content, Part
 import google.generativeai as genai
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from session_persistence_agent.agent import root_agent
+from user_persistence_agent.agent import root_agent
 
 DB_FILE = "agent_session_data.db"
 APP_NAME = "stateful_session_app"

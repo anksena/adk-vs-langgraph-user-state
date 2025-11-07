@@ -27,7 +27,7 @@ To setup the agent, execute the following command from within the `adk_agent` di
     ```
 
 4.  **Create an environment file:**
-    *   Copy the `.env.example` file (if present) to `session_persistence_agent/.env`.
+    *   Copy the `.env.example` file (if present) to `user_persistence_agent/.env`.
     *   Add your `GEMINI_API_KEY` to the `.env` file.
 
 ## Usage
@@ -35,4 +35,4 @@ To setup the agent, execute the following command from within the `adk_agent` di
 To run the agent, execute the following command from within the `adk_agent` directory:
 
 ```bash
-python -m session_persistence_agent.runner
+python -m user_persistence_agent.runner

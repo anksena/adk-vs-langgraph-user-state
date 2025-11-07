@@ -3,15 +3,11 @@
 
 # Environment variables
 .env
-runner_example/.env
-benchmark_agent/.env
 
 # IDE and cache files
 __pycache__/
 
 # Data files
 *.jsonl
-
-.roomodes
 
 *.db
